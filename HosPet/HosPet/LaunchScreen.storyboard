@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController modalTransitionStyle="partialCurl" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tela_inicial" translatesAutoresizingMaskIntoConstraints="NO" id="1x1-TB-Vus">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_hospet_branco" translatesAutoresizingMaskIntoConstraints="NO" id="QO0-i3-MOf">
+                                <rect key="frame" x="24" y="355" width="215" height="82"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="1x1-TB-Vus" secondAttribute="trailing" id="3Qb-du-CNe"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="1x1-TB-Vus" secondAttribute="bottom" id="9eG-1z-Krh"/>
+                            <constraint firstItem="QO0-i3-MOf" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="335" id="KLa-dp-IAv"/>
+                            <constraint firstItem="1x1-TB-Vus" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="Tof-7U-GX3"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="QO0-i3-MOf" secondAttribute="bottom" constant="230" id="bUf-5p-M1G"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QO0-i3-MOf" secondAttribute="trailing" constant="120" id="s7T-8X-EHv"/>
+                            <constraint firstItem="1x1-TB-Vus" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="sB1-Tn-rf5"/>
+                            <constraint firstItem="QO0-i3-MOf" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="8" id="sYx-ek-yZx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo_hospet_branco" width="694" height="267"/>
+        <image name="tela_inicial" width="972" height="1296"/>
+    </resources>
+</document>
