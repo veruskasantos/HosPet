@@ -12,6 +12,7 @@
 		3F1A66471E8AD49000AEA94F /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A66461E8AD49000AEA94F /* CoreDataManager.swift */; };
 		3F1A66491E8AD5A900AEA94F /* UsuarioDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A66481E8AD5A900AEA94F /* UsuarioDAO.swift */; };
 		3F1A664B1E8ADDF200AEA94F /* AdicionarVagaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A664A1E8ADDF200AEA94F /* AdicionarVagaViewController.swift */; };
+		3F1A664D1E8AFD6A00AEA94F /* CosmosDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A664C1E8AFD6A00AEA94F /* CosmosDistrib.swift */; };
 		3F3CF6491E898B0600C3C3DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3CF6481E898B0600C3C3DA /* AppDelegate.swift */; };
 		3F3CF64B1E898B0600C3C3DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3CF64A1E898B0600C3C3DA /* ViewController.swift */; };
 		3F3CF6511E898B0600C3C3DA /* HosPet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F3CF64F1E898B0600C3C3DA /* HosPet.xcdatamodeld */; };
@@ -31,6 +32,7 @@
 		3F1A66461E8AD49000AEA94F /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		3F1A66481E8AD5A900AEA94F /* UsuarioDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsuarioDAO.swift; sourceTree = "<group>"; };
 		3F1A664A1E8ADDF200AEA94F /* AdicionarVagaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdicionarVagaViewController.swift; sourceTree = "<group>"; };
+		3F1A664C1E8AFD6A00AEA94F /* CosmosDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosDistrib.swift; sourceTree = "<group>"; };
 		3F3CF6451E898B0600C3C3DA /* HosPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HosPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3CF6481E898B0600C3C3DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F3CF64A1E898B0600C3C3DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				3F3CF6611E898D0300C3C3DA /* UsuarioTableViewCell.swift */,
 				3F3CF64F1E898B0600C3C3DA /* HosPet.xcdatamodeld */,
 				3F1A664A1E8ADDF200AEA94F /* AdicionarVagaViewController.swift */,
+				3F1A664C1E8AFD6A00AEA94F /* CosmosDistrib.swift */,
 			);
 			path = HosPet;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				3F3CF66A1E899A0B00C3C3DA /* PerfilAnfitriaoViewController.swift in Sources */,
 				3F3CF6601E898CF500C3C3DA /* Usuario.swift in Sources */,
 				3F3CF6491E898B0600C3C3DA /* AppDelegate.swift in Sources */,
+				3F1A664D1E8AFD6A00AEA94F /* CosmosDistrib.swift in Sources */,
 				3F1A66471E8AD49000AEA94F /* CoreDataManager.swift in Sources */,
 				3F1A66441E8AD27500AEA94F /* Usuario+CoreDataProperties.swift in Sources */,
 			);

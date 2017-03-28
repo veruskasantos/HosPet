@@ -60,7 +60,8 @@ class TelaInicialTableViewController: UITableViewController {
             userCell.nomeLabel.text = usuarios[i].nome
             userCell.distanciaLabel.text = "\(String(usuarios[i].distancia)) Km"
             userCell.precoLabel.text = "R$: \(String(format: "%.2f" , usuarios[i].preco))"
-            userCell.classificacaoLabel.text = "\(String(usuarios[i].classificacao)) estrelas"
+            userCell.classificacaoView.settings.updateOnTouch = false
+            userCell.classificacaoView.rating = Double(usuarios[i].classificacao)
         }
 
         return cell

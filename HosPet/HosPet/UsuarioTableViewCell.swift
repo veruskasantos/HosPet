@@ -19,6 +19,6 @@ class UsuarioTableViewCell: UITableViewCell {
     
     @IBOutlet weak var distanciaLabel: UILabel!
     
-    @IBOutlet weak var classificacaoLabel: UILabel!
+    @IBOutlet weak var classificacaoView: CosmosView!
     
 }
