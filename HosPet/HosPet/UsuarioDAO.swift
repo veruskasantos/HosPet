@@ -32,7 +32,8 @@ class UsuarioDAO {
         
         
         request.sortDescriptors = [
-            NSSortDescriptor(key: "nome", ascending: true)
+            NSSortDescriptor(key: "distancia", ascending: true),
+            NSSortDescriptor(key: "classificacao", ascending: false)
         ]
         
         // Busca específica precisa definir predicate na request
