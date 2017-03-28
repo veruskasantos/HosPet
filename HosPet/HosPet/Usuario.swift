@@ -9,31 +9,31 @@
 import Foundation
 
 
-class Usuario{
-    
-    let nome: String
-    let imagemPerfil: String
-    
-    
-    init(nome: String, imagemPerfil: String) {
-        self.nome = nome
-        
-        
-        if(imagemPerfil.isEmpty){
-            self.imagemPerfil = "imagem-perfil-default"
-        }else{
-            self.imagemPerfil = imagemPerfil
-        }
-    }
-}
-
-class UsuarioDAOTESTE{
-    
-    static func getUsuarios() -> [Usuario]{
-        return [Usuario(nome: "Francisco da Silva", imagemPerfil: ""),
-                Usuario(nome: "Jose Santos",imagemPerfil: ""),
-                Usuario(nome: "Joana D'Arc",imagemPerfil: "")
-        ]
-    }
-    
-}
+//class Usuario{
+//    
+//    let nome: String
+//    let imagemPerfil: String
+//    
+//    
+//    init(nome: String, imagemPerfil: String) {
+//        self.nome = nome
+//        
+//        
+//        if(imagemPerfil.isEmpty){
+//            self.imagemPerfil = "imagem-perfil-default"
+//        }else{
+//            self.imagemPerfil = imagemPerfil
+//        }
+//    }
+//}
+//
+//class UsuarioDAOTESTE{
+//    
+//    static func getUsuarios() -> [Usuario]{
+//        return [Usuario(nome: "Francisco da Silva", imagemPerfil: ""),
+//                Usuario(nome: "Jose Santos",imagemPerfil: ""),
+//                Usuario(nome: "Joana D'Arc",imagemPerfil: "")
+//        ]
+//    }
+//    
+//}
