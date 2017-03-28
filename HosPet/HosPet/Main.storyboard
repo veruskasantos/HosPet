@@ -406,21 +406,13 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Ambiente:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qf7-ql-YQz">
-<<<<<<< HEAD
                                         <rect key="frame" x="23" y="0.0" width="217" height="20.5"/>
-=======
-                                        <rect key="frame" x="58" y="15" width="182" height="20.5"/>
->>>>>>> d7296e0aa826d2e7d0645ce83d249c0672f2d690
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Apartamento" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sI9-PD-hxl">
-<<<<<<< HEAD
                                         <rect key="frame" x="248" y="0.5" width="95" height="19.5"/>
-=======
-                                        <rect key="frame" x="248" y="15.5" width="95" height="19.5"/>
->>>>>>> d7296e0aa826d2e7d0645ce83d249c0672f2d690
                                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -439,21 +431,13 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Crianças:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Qw-6g-dbr">
-<<<<<<< HEAD
                                         <rect key="frame" x="23" y="0.0" width="302" height="20.5"/>
-=======
-                                        <rect key="frame" x="58" y="15" width="267" height="20.5"/>
->>>>>>> d7296e0aa826d2e7d0645ce83d249c0672f2d690
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="632-rs-A9j">
-<<<<<<< HEAD
                                         <rect key="frame" x="333" y="0.5" width="10" height="19.5"/>
-=======
-                                        <rect key="frame" x="333" y="15.5" width="10" height="19.5"/>
->>>>>>> d7296e0aa826d2e7d0645ce83d249c0672f2d690
                                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
