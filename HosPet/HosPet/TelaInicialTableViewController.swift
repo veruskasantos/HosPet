@@ -10,20 +10,25 @@ import UIKit
 
 class TelaInicialTableViewController: UITableViewController {
     
-    var usuarios: [Usuario]{
-        return UsuarioDAOTESTE.getUsuarios()
-    }
+    var usuarios =  [Usuario]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.usuarios = UsuarioDAO.getUsuarios()
 
-       
+        
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        self.usuarios = UsuarioDAO.getUsuarios()
+        tableView.reloadData()
     }
 
     override func didReceiveMemoryWarning() {
@@ -51,9 +56,11 @@ class TelaInicialTableViewController: UITableViewController {
             let i = indexPath.row
             
             userCell.fotoImageView.layer.masksToBounds = true
-            userCell.fotoImageView.image = UIImage(named: usuarios[i].imagemPerfil)
+            userCell.fotoImageView.image = UIImage(named: usuarios[i].foto!)
             userCell.nomeLabel.text = usuarios[i].nome
-            
+            userCell.distanciaLabel.text = "\(String(usuarios[i].distancia)) Km"
+            userCell.precoLabel.text = "R$: \(String(format: "%.2f" , usuarios[i].preco))"
+            userCell.classificacaoLabel.text = "\(String(usuarios[i].classificacao)) estrelas"
         }
 
         return cell

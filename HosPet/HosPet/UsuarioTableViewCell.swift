@@ -14,4 +14,11 @@ class UsuarioTableViewCell: UITableViewCell {
     @IBOutlet weak var fotoImageView: UIImageView!
 
     @IBOutlet weak var nomeLabel: UILabel!
+    
+    @IBOutlet weak var precoLabel: UILabel!
+    
+    @IBOutlet weak var distanciaLabel: UILabel!
+    
+    @IBOutlet weak var classificacaoLabel: UILabel!
+    
 }
