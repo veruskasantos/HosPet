@@ -24,6 +24,8 @@
 		3F3CF6661E898D7F00C3C3DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3CF6651E898D7F00C3C3DA /* LaunchScreen.storyboard */; };
 		3F3CF66A1E899A0B00C3C3DA /* PerfilAnfitriaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3CF6691E899A0B00C3C3DA /* PerfilAnfitriaoViewController.swift */; };
 		3F3D7A1A1E8AE063001E328B /* LocalAnfitriaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D7A191E8AE063001E328B /* LocalAnfitriaoViewController.swift */; };
+		3FBC8EF61E8C341300365B1B /* MeuPerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC8EF51E8C341200365B1B /* MeuPerfilViewController.swift */; };
+		3FBC8EF81E8C3F8000365B1B /* DetalhesMeuPerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC8EF71E8C3F8000365B1B /* DetalhesMeuPerfilViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		3F3CF6651E898D7F00C3C3DA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F3CF6691E899A0B00C3C3DA /* PerfilAnfitriaoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfilAnfitriaoViewController.swift; sourceTree = "<group>"; };
 		3F3D7A191E8AE063001E328B /* LocalAnfitriaoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalAnfitriaoViewController.swift; sourceTree = "<group>"; };
+		3FBC8EF51E8C341200365B1B /* MeuPerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeuPerfilViewController.swift; sourceTree = "<group>"; };
+		3FBC8EF71E8C3F8000365B1B /* DetalhesMeuPerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesMeuPerfilViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				3F1A66481E8AD5A900AEA94F /* UsuarioDAO.swift */,
 				3F3CF6631E898D5C00C3C3DA /* Main.storyboard */,
 				3F3CF6691E899A0B00C3C3DA /* PerfilAnfitriaoViewController.swift */,
+				3FBC8EF51E8C341200365B1B /* MeuPerfilViewController.swift */,
+				3FBC8EF71E8C3F8000365B1B /* DetalhesMeuPerfilViewController.swift */,
 				3F3D7A191E8AE063001E328B /* LocalAnfitriaoViewController.swift */,
 				3F3CF65F1E898CF500C3C3DA /* Usuario.swift */,
 				3F3CF6611E898D0300C3C3DA /* UsuarioTableViewCell.swift */,
@@ -182,10 +188,12 @@
 			files = (
 				3F1A664B1E8ADDF200AEA94F /* AdicionarVagaViewController.swift in Sources */,
 				3F3CF64B1E898B0600C3C3DA /* ViewController.swift in Sources */,
+				3FBC8EF81E8C3F8000365B1B /* DetalhesMeuPerfilViewController.swift in Sources */,
 				3F3CF65E1E898CC200C3C3DA /* TelaInicialTableViewController.swift in Sources */,
 				3F1A66491E8AD5A900AEA94F /* UsuarioDAO.swift in Sources */,
 				3F1A66431E8AD27500AEA94F /* Usuario+CoreDataClass.swift in Sources */,
 				3F3CF6621E898D0300C3C3DA /* UsuarioTableViewCell.swift in Sources */,
+				3FBC8EF61E8C341300365B1B /* MeuPerfilViewController.swift in Sources */,
 				3F3CF6511E898B0600C3C3DA /* HosPet.xcdatamodeld in Sources */,
 				3F3D7A1A1E8AE063001E328B /* LocalAnfitriaoViewController.swift in Sources */,
 				3F3CF66A1E899A0B00C3C3DA /* PerfilAnfitriaoViewController.swift in Sources */,
