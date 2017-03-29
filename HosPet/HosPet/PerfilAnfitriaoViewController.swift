@@ -9,7 +9,24 @@
 import UIKit
 
 class PerfilAnfitriaoViewController: UIViewController {
+    
+    
+    var nome = String()
+    var preco = String()
+    var foto = String()
+    var distancia = String()
+    var classificacao = 0.0
+    
 
+    @IBOutlet weak var fotoAnfitriaoImageView: UIImageView!
+    
+    @IBOutlet weak var precoLabel: UILabel!
+    
+    @IBOutlet weak var distanciaLabel: UILabel!
+    
+    @IBOutlet weak var nomeLabel: UILabel!
+    
+    @IBOutlet weak var classificacaoCosmosView: CosmosView!
     
     @IBOutlet weak var containerPerfil: UIView!
     
@@ -59,6 +76,14 @@ class PerfilAnfitriaoViewController: UIViewController {
         containerAvaliacao.isHidden = true
         containerGaleria.isHidden = true
         containerLocal.isHidden = true
+        
+        fotoAnfitriaoImageView.image = UIImage(named: foto)
+        nomeLabel.text = nome
+        precoLabel.text = preco
+        distanciaLabel.text = distancia
+        
+        classificacaoCosmosView.settings.updateOnTouch = false
+        classificacaoCosmosView.rating = classificacao
 
         // Do any additional setup after loading the view.
     }

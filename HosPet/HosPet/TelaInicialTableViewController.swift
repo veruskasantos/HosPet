@@ -107,10 +107,25 @@ class TelaInicialTableViewController: UITableViewController {
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
     */
+    
+    // MARK: - Navigation
+    
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showPerfil" {
+            if let novaView = segue.destination as? PerfilAnfitriaoViewController {
+                if let index = tableView.indexPathForSelectedRow {
+                    let anfitriao = self.anfitrioes[index.row]
+                    novaView.nome = anfitriao.nome!
+                    novaView.preco = "R$: \(String(format: "%.2f" , anfitriao.preco))"
+                    novaView.distancia = "\(String(anfitriao.distancia)) Km"
+                    novaView.classificacao = Double(anfitriao.classificacao)
+                    novaView.foto = anfitriao.foto!
+                }
+            }
+        }
+        
+    }
 
 }
