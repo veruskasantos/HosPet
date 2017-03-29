@@ -23,13 +23,13 @@ class AdicionarVagaViewController: UIViewController {
         let classificacao = Float(0.0)
         let foto = "imagem-perfil-default"
         
-        var usuario = Usuario()
-        usuario.nome = nome
-        usuario.preco = preco!
-        usuario.distancia = distancia
-        usuario.foto = foto
-        usuario.classificacao = classificacao
-        UsuarioDAO.adicionar(usuario)
+        var anfitriao = Anfitriao()
+        anfitriao.nome = nome
+        anfitriao.preco = preco!
+        anfitriao.distancia = distancia
+        anfitriao.foto = foto
+        anfitriao.classificacao = classificacao
+        AnfitriaoDAO.adicionar(anfitriao)
         navigationController?.popViewController(animated: true)
         
     }

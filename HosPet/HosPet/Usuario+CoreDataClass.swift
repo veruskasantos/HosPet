@@ -2,7 +2,7 @@
 //  Usuario+CoreDataClass.swift
 //  HosPet
 //
-//  Created by Student on 3/28/17.
+//  Created by Student on 3/29/17.
 //  Copyright © 2017 Veruska. All rights reserved.
 //
 

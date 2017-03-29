@@ -2,7 +2,7 @@
 //  Usuario+CoreDataProperties.swift
 //  HosPet
 //
-//  Created by Student on 3/28/17.
+//  Created by Student on 3/29/17.
 //  Copyright © 2017 Veruska. All rights reserved.
 //
 
@@ -16,10 +16,9 @@ extension Usuario {
         return NSFetchRequest<Usuario>(entityName: "Usuario");
     }
 
-    @NSManaged public var nome: String?
-    @NSManaged public var preco: Float
-    @NSManaged public var distancia: Float
-    @NSManaged public var classificacao: Float
+    @NSManaged public var email: String?
     @NSManaged public var foto: String?
+    @NSManaged public var senha: String?
+    @NSManaged public var nome: String?
 
 }
