@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F1A66431E8AD27500AEA94F /* Usuario+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A66411E8AD27500AEA94F /* Usuario+CoreDataClass.swift */; };
-		3F1A66441E8AD27500AEA94F /* Usuario+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A66421E8AD27500AEA94F /* Usuario+CoreDataProperties.swift */; };
 		3F1A66471E8AD49000AEA94F /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A66461E8AD49000AEA94F /* CoreDataManager.swift */; };
 		3F1A66491E8AD5A900AEA94F /* UsuarioDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A66481E8AD5A900AEA94F /* UsuarioDAO.swift */; };
 		3F1A664B1E8ADDF200AEA94F /* AdicionarVagaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A664A1E8ADDF200AEA94F /* AdicionarVagaViewController.swift */; };
@@ -24,13 +22,20 @@
 		3F3CF6661E898D7F00C3C3DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3CF6651E898D7F00C3C3DA /* LaunchScreen.storyboard */; };
 		3F3CF66A1E899A0B00C3C3DA /* PerfilAnfitriaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3CF6691E899A0B00C3C3DA /* PerfilAnfitriaoViewController.swift */; };
 		3F3D7A1A1E8AE063001E328B /* LocalAnfitriaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D7A191E8AE063001E328B /* LocalAnfitriaoViewController.swift */; };
+		3F43A5931E8C24F800CE0ABD /* Anfitriao+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43A5911E8C24F800CE0ABD /* Anfitriao+CoreDataClass.swift */; };
+		3F43A5941E8C24F800CE0ABD /* Anfitriao+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43A5921E8C24F800CE0ABD /* Anfitriao+CoreDataProperties.swift */; };
+		3F43A5991E8C278600CE0ABD /* Usuario+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43A5951E8C278600CE0ABD /* Usuario+CoreDataClass.swift */; };
+		3F43A59A1E8C278600CE0ABD /* Usuario+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43A5961E8C278600CE0ABD /* Usuario+CoreDataProperties.swift */; };
+		3F43A59B1E8C278600CE0ABD /* Animal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43A5971E8C278600CE0ABD /* Animal+CoreDataClass.swift */; };
+		3F43A59C1E8C278600CE0ABD /* Animal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43A5981E8C278600CE0ABD /* Animal+CoreDataProperties.swift */; };
+		3F43A59E1E8C284300CE0ABD /* AnfitriaoDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43A59D1E8C284300CE0ABD /* AnfitriaoDAO.swift */; };
+		3FDEC7221E8C32630060309D /* CadastroUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDEC7211E8C32630060309D /* CadastroUsuarioViewController.swift */; };
+		3FDEC7241E8C38B90060309D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDEC7231E8C38B90060309D /* LoginViewController.swift */; };
 		3FBC8EF61E8C341300365B1B /* MeuPerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC8EF51E8C341200365B1B /* MeuPerfilViewController.swift */; };
 		3FBC8EF81E8C3F8000365B1B /* DetalhesMeuPerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC8EF71E8C3F8000365B1B /* DetalhesMeuPerfilViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F1A66411E8AD27500AEA94F /* Usuario+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Usuario+CoreDataClass.swift"; sourceTree = "<group>"; };
-		3F1A66421E8AD27500AEA94F /* Usuario+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Usuario+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3F1A66461E8AD49000AEA94F /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		3F1A66481E8AD5A900AEA94F /* UsuarioDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsuarioDAO.swift; sourceTree = "<group>"; };
 		3F1A664A1E8ADDF200AEA94F /* AdicionarVagaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdicionarVagaViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +53,15 @@
 		3F3CF6651E898D7F00C3C3DA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F3CF6691E899A0B00C3C3DA /* PerfilAnfitriaoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfilAnfitriaoViewController.swift; sourceTree = "<group>"; };
 		3F3D7A191E8AE063001E328B /* LocalAnfitriaoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalAnfitriaoViewController.swift; sourceTree = "<group>"; };
+		3F43A5911E8C24F800CE0ABD /* Anfitriao+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Anfitriao+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3F43A5921E8C24F800CE0ABD /* Anfitriao+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Anfitriao+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3F43A5951E8C278600CE0ABD /* Usuario+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Usuario+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3F43A5961E8C278600CE0ABD /* Usuario+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Usuario+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3F43A5971E8C278600CE0ABD /* Animal+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Animal+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3F43A5981E8C278600CE0ABD /* Animal+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Animal+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3F43A59D1E8C284300CE0ABD /* AnfitriaoDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnfitriaoDAO.swift; sourceTree = "<group>"; };
+		3FDEC7211E8C32630060309D /* CadastroUsuarioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroUsuarioViewController.swift; sourceTree = "<group>"; };
+		3FDEC7231E8C38B90060309D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3FBC8EF51E8C341200365B1B /* MeuPerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeuPerfilViewController.swift; sourceTree = "<group>"; };
 		3FBC8EF71E8C3F8000365B1B /* DetalhesMeuPerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesMeuPerfilViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,8 +91,6 @@
 		3F3CF63C1E898B0600C3C3DA = {
 			isa = PBXGroup;
 			children = (
-				3F1A66411E8AD27500AEA94F /* Usuario+CoreDataClass.swift */,
-				3F1A66421E8AD27500AEA94F /* Usuario+CoreDataProperties.swift */,
 				3F3CF6471E898B0600C3C3DA /* HosPet */,
 				3F3CF6461E898B0600C3C3DA /* Products */,
 			);
@@ -95,12 +107,21 @@
 		3F3CF6471E898B0600C3C3DA /* HosPet */ = {
 			isa = PBXGroup;
 			children = (
+				3F43A5951E8C278600CE0ABD /* Usuario+CoreDataClass.swift */,
+				3F43A5961E8C278600CE0ABD /* Usuario+CoreDataProperties.swift */,
+				3F43A5971E8C278600CE0ABD /* Animal+CoreDataClass.swift */,
+				3F43A5981E8C278600CE0ABD /* Animal+CoreDataProperties.swift */,
+				3F43A5911E8C24F800CE0ABD /* Anfitriao+CoreDataClass.swift */,
+				3F43A5921E8C24F800CE0ABD /* Anfitriao+CoreDataProperties.swift */,
 				3F1A66451E8AD33D00AEA94F /* SupportingFiles */,
 				3F3CF64A1E898B0600C3C3DA /* ViewController.swift */,
 				3F3CF6521E898B0600C3C3DA /* Assets.xcassets */,
 				3F3CF65D1E898CC200C3C3DA /* TelaInicialTableViewController.swift */,
+				3F43A59D1E8C284300CE0ABD /* AnfitriaoDAO.swift */,
+				3FDEC7211E8C32630060309D /* CadastroUsuarioViewController.swift */,
 				3F1A66481E8AD5A900AEA94F /* UsuarioDAO.swift */,
 				3F3CF6631E898D5C00C3C3DA /* Main.storyboard */,
+				3FDEC7231E8C38B90060309D /* LoginViewController.swift */,
 				3F3CF6691E899A0B00C3C3DA /* PerfilAnfitriaoViewController.swift */,
 				3FBC8EF51E8C341200365B1B /* MeuPerfilViewController.swift */,
 				3FBC8EF71E8C3F8000365B1B /* DetalhesMeuPerfilViewController.swift */,
@@ -186,22 +207,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FDEC7241E8C38B90060309D /* LoginViewController.swift in Sources */,
 				3F1A664B1E8ADDF200AEA94F /* AdicionarVagaViewController.swift in Sources */,
 				3F3CF64B1E898B0600C3C3DA /* ViewController.swift in Sources */,
 				3FBC8EF81E8C3F8000365B1B /* DetalhesMeuPerfilViewController.swift in Sources */,
 				3F3CF65E1E898CC200C3C3DA /* TelaInicialTableViewController.swift in Sources */,
+				3F43A59B1E8C278600CE0ABD /* Animal+CoreDataClass.swift in Sources */,
 				3F1A66491E8AD5A900AEA94F /* UsuarioDAO.swift in Sources */,
-				3F1A66431E8AD27500AEA94F /* Usuario+CoreDataClass.swift in Sources */,
 				3F3CF6621E898D0300C3C3DA /* UsuarioTableViewCell.swift in Sources */,
+				3FDEC7221E8C32630060309D /* CadastroUsuarioViewController.swift in Sources */,
+				3F43A59C1E8C278600CE0ABD /* Animal+CoreDataProperties.swift in Sources */,
 				3FBC8EF61E8C341300365B1B /* MeuPerfilViewController.swift in Sources */,
 				3F3CF6511E898B0600C3C3DA /* HosPet.xcdatamodeld in Sources */,
 				3F3D7A1A1E8AE063001E328B /* LocalAnfitriaoViewController.swift in Sources */,
+				3F43A59A1E8C278600CE0ABD /* Usuario+CoreDataProperties.swift in Sources */,
 				3F3CF66A1E899A0B00C3C3DA /* PerfilAnfitriaoViewController.swift in Sources */,
+				3F43A5941E8C24F800CE0ABD /* Anfitriao+CoreDataProperties.swift in Sources */,
 				3F3CF6601E898CF500C3C3DA /* Usuario.swift in Sources */,
 				3F3CF6491E898B0600C3C3DA /* AppDelegate.swift in Sources */,
+				3F43A59E1E8C284300CE0ABD /* AnfitriaoDAO.swift in Sources */,
 				3F1A664D1E8AFD6A00AEA94F /* CosmosDistrib.swift in Sources */,
+				3F43A5931E8C24F800CE0ABD /* Anfitriao+CoreDataClass.swift in Sources */,
 				3F1A66471E8AD49000AEA94F /* CoreDataManager.swift in Sources */,
-				3F1A66441E8AD27500AEA94F /* Usuario+CoreDataProperties.swift in Sources */,
+				3F43A5991E8C278600CE0ABD /* Usuario+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

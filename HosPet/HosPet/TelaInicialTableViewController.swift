@@ -10,11 +10,11 @@ import UIKit
 
 class TelaInicialTableViewController: UITableViewController {
     
-    var usuarios =  [Usuario]()
+    var anfitrioes =  [Anfitriao]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.usuarios = UsuarioDAO.getUsuarios()
+        self.anfitrioes = AnfitriaoDAO.getAnfitriao()
 
         
         
@@ -27,7 +27,7 @@ class TelaInicialTableViewController: UITableViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-        self.usuarios = UsuarioDAO.getUsuarios()
+        self.anfitrioes = AnfitriaoDAO.getAnfitriao()
         tableView.reloadData()
     }
 
@@ -45,23 +45,23 @@ class TelaInicialTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return usuarios.count
+        return anfitrioes.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "usuarioIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "anfitriaoIdentifier", for: indexPath)
 
         if let userCell = cell as? UsuarioTableViewCell{
             let i = indexPath.row
             
             userCell.fotoImageView.layer.masksToBounds = true
-            userCell.fotoImageView.image = UIImage(named: usuarios[i].foto!)
-            userCell.nomeLabel.text = usuarios[i].nome
-            userCell.distanciaLabel.text = "\(String(usuarios[i].distancia)) Km"
-            userCell.precoLabel.text = "R$: \(String(format: "%.2f" , usuarios[i].preco))"
+            userCell.fotoImageView.image = UIImage(named: anfitrioes[i].foto!)
+            userCell.nomeLabel.text = anfitrioes[i].nome
+            userCell.distanciaLabel.text = "\(String(anfitrioes[i].distancia)) Km"
+            userCell.precoLabel.text = "R$: \(String(format: "%.2f" , anfitrioes[i].preco))"
             userCell.classificacaoView.settings.updateOnTouch = false
-            userCell.classificacaoView.rating = Double(usuarios[i].classificacao)
+            userCell.classificacaoView.rating = Double(anfitrioes[i].classificacao)
         }
 
         return cell

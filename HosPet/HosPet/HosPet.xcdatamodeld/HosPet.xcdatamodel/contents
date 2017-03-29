@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G1212" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Usuario" representedClassName=".Usuario" syncable="YES">
+    <entity name="Anfitriao" representedClassName=".Anfitriao" syncable="YES">
+        <attribute name="ambiente" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="classificacao" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="criancas" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="descricao" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="distancia" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="foto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="preco" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="recebe" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Animal" inverseName="cuidadoPor" inverseEntity="Animal" syncable="YES"/>
+    </entity>
+    <entity name="Animal" representedClassName=".Animal" syncable="YES">
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="cuidadoPor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Anfitriao" inverseName="recebe" inverseEntity="Anfitriao" syncable="YES"/>
+    </entity>
+    <entity name="Usuario" representedClassName=".Usuario" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="foto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senha" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Usuario" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="Anfitriao" positionX="-144" positionY="-124" width="128" height="208"/>
+        <element name="Animal" positionX="45" positionY="-72" width="128" height="73"/>
+        <element name="Usuario" positionX="-27" positionY="-18" width="128" height="105"/>
     </elements>
 </model>
