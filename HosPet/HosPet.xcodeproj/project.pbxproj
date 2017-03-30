@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F082D861E8D7C6400F9898B /* PerfilAnfitriaoContanierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F082D851E8D7C6400F9898B /* PerfilAnfitriaoContanierViewController.swift */; };
 		3F1A66471E8AD49000AEA94F /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A66461E8AD49000AEA94F /* CoreDataManager.swift */; };
 		3F1A66491E8AD5A900AEA94F /* UsuarioDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A66481E8AD5A900AEA94F /* UsuarioDAO.swift */; };
 		3F1A664B1E8ADDF200AEA94F /* AdicionarVagaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A664A1E8ADDF200AEA94F /* AdicionarVagaViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F082D851E8D7C6400F9898B /* PerfilAnfitriaoContanierViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfilAnfitriaoContanierViewController.swift; sourceTree = "<group>"; };
 		3F1A66461E8AD49000AEA94F /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		3F1A66481E8AD5A900AEA94F /* UsuarioDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsuarioDAO.swift; sourceTree = "<group>"; };
 		3F1A664A1E8ADDF200AEA94F /* AdicionarVagaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdicionarVagaViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		3F3CF6471E898B0600C3C3DA /* HosPet */ = {
 			isa = PBXGroup;
 			children = (
+				3F86EC871E8D735800C9592A /* Controllers */,
 				3F86EC881E8D737400C9592A /* CoreDataFiles */,
 				3F1A66451E8AD33D00AEA94F /* SupportingFiles */,
 				3F3CF6521E898B0600C3C3DA /* Assets.xcassets */,
@@ -126,6 +129,7 @@
 		3F86EC871E8D735800C9592A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3F082D851E8D7C6400F9898B /* PerfilAnfitriaoContanierViewController.swift */,
 				3F3CF64A1E898B0600C3C3DA /* ViewController.swift */,
 				3F3CF65D1E898CC200C3C3DA /* TelaInicialTableViewController.swift */,
 				3FDEC7211E8C32630060309D /* CadastroUsuarioViewController.swift */,
@@ -149,7 +153,6 @@
 				3F43A5981E8C278600CE0ABD /* Animal+CoreDataProperties.swift */,
 				3F43A5911E8C24F800CE0ABD /* Anfitriao+CoreDataClass.swift */,
 				3F43A5921E8C24F800CE0ABD /* Anfitriao+CoreDataProperties.swift */,
-				3F86EC871E8D735800C9592A /* Controllers */,
 			);
 			name = CoreDataFiles;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				3F43A59B1E8C278600CE0ABD /* Animal+CoreDataClass.swift in Sources */,
 				3F1A66491E8AD5A900AEA94F /* UsuarioDAO.swift in Sources */,
 				3F3CF6621E898D0300C3C3DA /* UsuarioTableViewCell.swift in Sources */,
+				3F082D861E8D7C6400F9898B /* PerfilAnfitriaoContanierViewController.swift in Sources */,
 				3FDEC7221E8C32630060309D /* CadastroUsuarioViewController.swift in Sources */,
 				3F43A59C1E8C278600CE0ABD /* Animal+CoreDataProperties.swift in Sources */,
 				3FBC8EF61E8C341300365B1B /* MeuPerfilViewController.swift in Sources */,

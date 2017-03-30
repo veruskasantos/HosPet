@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Adicionar Vaga-->
+        <!--Tornar-se Anfitrião-->
         <scene sceneID="PrW-N1-iV1">
             <objects>
                 <viewController id="dnA-xs-jKU" customClass="AdicionarVagaViewController" customModule="HosPet" customModuleProvider="target" sceneMemberID="viewController">
@@ -23,19 +23,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="hdH-OH-fcF">
-                                <rect key="frame" x="16" y="72" width="343" height="80"/>
+                                <rect key="frame" x="16" y="72" width="343" height="280"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Yr8-Up-zMZ">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="30"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dw6-jO-dmI">
-                                                <rect key="frame" x="0.0" y="0.0" width="50.5" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="70" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QV9-Z1-o6S">
-                                                <rect key="frame" x="58.5" y="0.0" width="284.5" height="30"/>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Digite seu nome" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QV9-Z1-o6S">
+                                                <rect key="frame" x="78" y="0.0" width="265" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -46,13 +46,81 @@
                                         <rect key="frame" x="0.0" y="50" width="343" height="30"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Preço:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hvZ-jD-jCk">
-                                                <rect key="frame" x="0.0" y="0.0" width="49" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="70" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SeP-xw-dHX">
-                                                <rect key="frame" x="57" y="0.0" width="286" height="30"/>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Digite o preço de sua diaria" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SeP-xw-dHX">
+                                                <rect key="frame" x="78" y="0.0" width="265" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d1l-ce-9xb">
+                                        <rect key="frame" x="0.0" y="100" width="343" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Latitude:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aM-rg-W4G">
+                                                <rect key="frame" x="0.0" y="0.0" width="78" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Digite a latitude de onde você mora" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5fz-MF-pn3">
+                                                <rect key="frame" x="78" y="0.0" width="265" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1lY-R4-HUr">
+                                        <rect key="frame" x="0.0" y="150" width="343" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Longitude:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2z-5h-f7u">
+                                                <rect key="frame" x="0.0" y="0.0" width="78" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Digite a longitude de onde você mora" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qXB-tw-hN3">
+                                                <rect key="frame" x="78" y="0.0" width="265" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pzT-d0-rPH">
+                                        <rect key="frame" x="0.0" y="200" width="343" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crianças:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PpQ-G4-uO5">
+                                                <rect key="frame" x="0.0" y="0.0" width="78" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LD9-au-VG8">
+                                                <rect key="frame" x="78" y="0.0" width="265" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kvI-Mv-tWP">
+                                        <rect key="frame" x="0.0" y="250" width="343" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ambiente:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3R2-SX-f9r">
+                                                <rect key="frame" x="0.0" y="0.0" width="78" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Descreva o ambiente de onde você mora" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iqB-zl-fcy">
+                                                <rect key="frame" x="78" y="0.0" width="265" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -60,9 +128,16 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="iqB-zl-fcy" firstAttribute="leading" secondItem="LD9-au-VG8" secondAttribute="leading" id="7bq-O0-Ngn"/>
+                                    <constraint firstItem="SeP-xw-dHX" firstAttribute="leading" secondItem="LD9-au-VG8" secondAttribute="leading" id="Rio-u9-T9n"/>
+                                    <constraint firstItem="qXB-tw-hN3" firstAttribute="leading" secondItem="LD9-au-VG8" secondAttribute="leading" id="ZI0-Ka-p9G"/>
+                                    <constraint firstItem="5fz-MF-pn3" firstAttribute="leading" secondItem="LD9-au-VG8" secondAttribute="leading" id="s2r-Wc-fcB"/>
+                                    <constraint firstItem="QV9-Z1-o6S" firstAttribute="leading" secondItem="LD9-au-VG8" secondAttribute="leading" id="yRW-00-Lwa"/>
+                                </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tTs-iQ-df2">
-                                <rect key="frame" x="116" y="202" width="143" height="30"/>
+                                <rect key="frame" x="116" y="402" width="143" height="30"/>
                                 <state key="normal" title="Adicionar Vaga"/>
                                 <connections>
                                     <action selector="adicionarVaga:" destination="dnA-xs-jKU" eventType="touchUpInside" id="Fuu-Dg-2oB"/>
@@ -79,15 +154,20 @@
                             <constraint firstItem="hdH-OH-fcF" firstAttribute="leading" secondItem="cL1-Zb-2af" secondAttribute="leadingMargin" id="fVy-S5-SMT"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Adicionar Vaga" id="qSS-Kt-85I"/>
+                    <navigationItem key="navigationItem" title="Tornar-se Anfitrião" id="qSS-Kt-85I"/>
                     <connections>
+                        <outlet property="ambienteTextField" destination="iqB-zl-fcy" id="jpJ-lr-YNF"/>
+                        <outlet property="criancasTextField" destination="LD9-au-VG8" id="2gl-wg-6bn"/>
+                        <outlet property="latitudeTextField" destination="5fz-MF-pn3" id="Ab1-D0-tfS"/>
+                        <outlet property="longitudeTextField" destination="qXB-tw-hN3" id="JBW-S2-YWn"/>
                         <outlet property="nomeTextField" destination="QV9-Z1-o6S" id="3IP-dJ-Gha"/>
                         <outlet property="precoTextField" destination="SeP-xw-dHX" id="Dv8-If-ZJQ"/>
+                        <segue destination="fsk-gJ-ZVd" kind="show" identifier="segueTeste" id="Hjs-Qd-xGK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="937-ak-p4W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1173.5999999999999" y="-655.32233883058473"/>
+            <point key="canvasLocation" x="1367" y="-718"/>
         </scene>
         <!--Anfitriões-->
         <scene sceneID="v3J-24-PRo">
@@ -374,10 +454,10 @@
             </objects>
             <point key="canvasLocation" x="108" y="121.88905547226388"/>
         </scene>
-        <!--Adicionar Vaga View Controller-->
+        <!--Perfil Anfitriao Contanier View Controller-->
         <scene sceneID="s4Q-5g-gXl">
             <objects>
-                <viewController id="fsk-gJ-ZVd" customClass="AdicionarVagaViewController" customModule="HosPet" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fsk-gJ-ZVd" customClass="PerfilAnfitriaoContanierViewController" customModule="HosPet" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="G0W-70-QnO"/>
                         <viewControllerLayoutGuide type="bottom" id="6LR-Xq-Bw9"/>
@@ -495,9 +575,12 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="ambienteLabel" destination="sI9-PD-hxl" id="V06-PH-BEp"/>
+                        <outlet property="ambienteLabel" destination="sI9-PD-hxl" id="tfI-FT-npB"/>
+                        <outlet property="animaisLabel" destination="Mvj-wW-xzO" id="o3Y-cP-0N4"/>
+                        <outlet property="descricaoLabel" destination="ldo-1G-IvK" id="xSu-I3-6bD"/>
                         <outlet property="descricaoTextView" destination="ldo-1G-IvK" id="NiF-IC-Vjx"/>
                         <outlet property="listaDeAnimaisLabel" destination="Mvj-wW-xzO" id="iRd-0i-3mG"/>
+                        <outlet property="qntCriancasLabel" destination="632-rs-A9j" id="Dnd-Ul-9ZN"/>
                         <outlet property="qtdCriancasLabel" destination="632-rs-A9j" id="Up9-du-eu8"/>
                     </connections>
                 </viewController>
@@ -1119,6 +1202,7 @@
         <image name="star" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="8fH-jj-zNQ"/>
         <segue reference="M6z-kf-VPf"/>
     </inferredMetricsTieBreakers>
 </document>
