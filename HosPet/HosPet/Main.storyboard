@@ -489,10 +489,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="374"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Vvn-Ci-Xj9" userLabel="Animais Stack View">
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Vvn-Ci-Xj9" userLabel="Animais Stack View">
                                 <rect key="frame" x="16" y="8" width="343" height="21"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="coracao-icon" translatesAutoresizingMaskIntoConstraints="NO" id="31R-hC-nPF">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coracao-icon" translatesAutoresizingMaskIntoConstraints="NO" id="31R-hC-nPF">
                                         <rect key="frame" x="0.0" y="3" width="15" height="15"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="15" id="Obr-Fq-ktZ"/>
@@ -500,13 +500,13 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Animais:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="66U-l4-xhx">
-                                        <rect key="frame" x="23" y="0.0" width="131" height="20.5"/>
+                                        <rect key="frame" x="23" y="0.0" width="131" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Gato Cachorro Tartaruga" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mvj-wW-xzO">
-                                        <rect key="frame" x="162" y="0.5" width="181" height="19.5"/>
+                                        <rect key="frame" x="162" y="1" width="181" height="20"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -514,10 +514,10 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ISw-fb-Hke" userLabel="Ambiente Stack View">
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ISw-fb-Hke" userLabel="Ambiente Stack View">
                                 <rect key="frame" x="16" y="37" width="343" height="21"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="casa-icon" translatesAutoresizingMaskIntoConstraints="NO" id="pfu-je-tmk">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="casa-icon" translatesAutoresizingMaskIntoConstraints="NO" id="pfu-je-tmk">
                                         <rect key="frame" x="0.0" y="3" width="15" height="15"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="15" id="K0T-Fp-Edw"/>
@@ -525,13 +525,13 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Ambiente:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qf7-ql-YQz">
-                                        <rect key="frame" x="23" y="0.0" width="217" height="20.5"/>
+                                        <rect key="frame" x="23" y="0.0" width="217" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Apartamento" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sI9-PD-hxl">
-                                        <rect key="frame" x="248" y="0.5" width="95" height="19.5"/>
+                                        <rect key="frame" x="248" y="1" width="95" height="20"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -539,10 +539,10 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="BFe-C0-Re8" userLabel="Criancas Stack View">
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="BFe-C0-Re8" userLabel="Criancas Stack View">
                                 <rect key="frame" x="16" y="66" width="343" height="21"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="criancas-icon" translatesAutoresizingMaskIntoConstraints="NO" id="cYl-Zf-yz3">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="criancas-icon" translatesAutoresizingMaskIntoConstraints="NO" id="cYl-Zf-yz3">
                                         <rect key="frame" x="0.0" y="3" width="15" height="15"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="15" id="WQr-TG-2MV"/>
@@ -550,13 +550,13 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Crianças:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Qw-6g-dbr">
-                                        <rect key="frame" x="23" y="0.0" width="302" height="20.5"/>
+                                        <rect key="frame" x="23" y="0.0" width="302" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="632-rs-A9j">
-                                        <rect key="frame" x="333" y="0.5" width="10" height="19.5"/>
+                                        <rect key="frame" x="333" y="1" width="10" height="20"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -565,13 +565,13 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sobre:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahi-RA-Bm2">
-                                <rect key="frame" x="16" y="93.5" width="50" height="20.5"/>
+                                <rect key="frame" x="16" y="95" width="50" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ldo-1G-IvK">
-                                <rect key="frame" x="16" y="122" width="343" height="252"/>
+                                <rect key="frame" x="16" y="124" width="343" height="250"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -620,10 +620,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K1f-EM-7dh">
-                                <rect key="frame" x="16" y="72" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vagas:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eac-sC-4ad">
                                 <rect key="frame" x="210" y="152" width="68" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -646,7 +642,7 @@
                                 </connections>
                             </containerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXL-Ci-Obz">
-                                <rect key="frame" x="171" y="72" width="188" height="36"/>
+                                <rect key="frame" x="182" y="72" width="177" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -678,6 +674,18 @@
                                     <segue destination="Mwk-fc-hWw" kind="embed" id="HYR-eR-98x"/>
                                 </connections>
                             </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CjF-kL-yzS">
+                                <rect key="frame" x="15" y="138" width="133" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="camera"/>
+                                <connections>
+                                    <action selector="selecionarFotoButton:" destination="WbN-6q-4t9" eventType="touchUpInside" id="lk9-Ak-xVR"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aw5-lP-BaI">
+                                <rect key="frame" x="16" y="80" width="158" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -685,6 +693,7 @@
                     <connections>
                         <outlet property="detalhesPerfil" destination="j64-0c-TOi" id="E1y-qL-Byc"/>
                         <outlet property="galeriaPerfil" destination="6J6-fF-b7v" id="VSa-QB-ERo"/>
+                        <outlet property="minhaFotoImageView" destination="aw5-lP-BaI" id="t3D-ta-xCp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="of2-tR-fa9" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1160,13 +1169,13 @@
             </objects>
             <point key="canvasLocation" x="60" y="1579.1604197901052"/>
         </scene>
-        <!--View Controller-->
+        <!--Galeria Usuario View Controller-->
         <scene sceneID="Xvy-vC-rJP">
             <objects>
-                <viewController id="Mwk-fc-hWw" sceneMemberID="viewController">
+                <viewController id="Mwk-fc-hWw" customClass="GaleriaUsuarioViewController" customModule="HosPet" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="mnq-P7-0YL"/>
-                        <viewControllerLayoutGuide type="bottom" id="i2i-II-jz0"/>
+                        <viewControllerLayoutGuide type="top" id="3ub-gF-gSG"/>
+                        <viewControllerLayoutGuide type="bottom" id="wTy-9Q-vdg"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="YyE-Lb-53m">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="331"/>
@@ -1176,10 +1185,20 @@
                                 <rect key="frame" x="175" y="284" width="25" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="camera"/>
+                                <connections>
+                                    <action selector="adicionarFotoButton:" destination="Mwk-fc-hWw" eventType="touchUpInside" id="ImA-kc-PaJ"/>
+                                </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bhG-1s-VNo">
+                                <rect key="frame" x="67" y="75" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="fotoImageView" destination="bhG-1s-VNo" id="vmm-jT-cqE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LYA-pr-FYT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
