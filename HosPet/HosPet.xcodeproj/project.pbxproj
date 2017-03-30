@@ -31,6 +31,7 @@
 		3F43A59E1E8C284300CE0ABD /* AnfitriaoDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43A59D1E8C284300CE0ABD /* AnfitriaoDAO.swift */; };
 		3FBC8EF61E8C341300365B1B /* MeuPerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC8EF51E8C341200365B1B /* MeuPerfilViewController.swift */; };
 		3FBC8EF81E8C3F8000365B1B /* DetalhesMeuPerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC8EF71E8C3F8000365B1B /* DetalhesMeuPerfilViewController.swift */; };
+		3FC4DB821E8D8F160024E82B /* GaleriaUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4DB811E8D8F160024E82B /* GaleriaUsuarioViewController.swift */; };
 		3FDEC7221E8C32630060309D /* CadastroUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDEC7211E8C32630060309D /* CadastroUsuarioViewController.swift */; };
 		3FDEC7241E8C38B90060309D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDEC7231E8C38B90060309D /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,7 @@
 		3F43A59D1E8C284300CE0ABD /* AnfitriaoDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnfitriaoDAO.swift; sourceTree = "<group>"; };
 		3FBC8EF51E8C341200365B1B /* MeuPerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeuPerfilViewController.swift; sourceTree = "<group>"; };
 		3FBC8EF71E8C3F8000365B1B /* DetalhesMeuPerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesMeuPerfilViewController.swift; sourceTree = "<group>"; };
+		3FC4DB811E8D8F160024E82B /* GaleriaUsuarioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaleriaUsuarioViewController.swift; sourceTree = "<group>"; };
 		3FDEC7211E8C32630060309D /* CadastroUsuarioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroUsuarioViewController.swift; sourceTree = "<group>"; };
 		3FDEC7231E8C38B90060309D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,6 +135,7 @@
 				3FBC8EF71E8C3F8000365B1B /* DetalhesMeuPerfilViewController.swift */,
 				3F3D7A191E8AE063001E328B /* LocalAnfitriaoViewController.swift */,
 				3F1A664A1E8ADDF200AEA94F /* AdicionarVagaViewController.swift */,
+				3FC4DB811E8D8F160024E82B /* GaleriaUsuarioViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				TargetAttributes = {
 					3F3CF6441E898B0600C3C3DA = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 836WVM9734;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -244,6 +248,7 @@
 				3F43A59E1E8C284300CE0ABD /* AnfitriaoDAO.swift in Sources */,
 				3F1A664D1E8AFD6A00AEA94F /* CosmosDistrib.swift in Sources */,
 				3F43A5931E8C24F800CE0ABD /* Anfitriao+CoreDataClass.swift in Sources */,
+				3FC4DB821E8D8F160024E82B /* GaleriaUsuarioViewController.swift in Sources */,
 				3F1A66471E8AD49000AEA94F /* CoreDataManager.swift in Sources */,
 				3F43A5991E8C278600CE0ABD /* Usuario+CoreDataClass.swift in Sources */,
 			);
@@ -349,6 +354,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 836WVM9734;
 				INFOPLIST_FILE = HosPet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.santos.veruska.HosPet;
@@ -361,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 836WVM9734;
 				INFOPLIST_FILE = HosPet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.santos.veruska.HosPet;

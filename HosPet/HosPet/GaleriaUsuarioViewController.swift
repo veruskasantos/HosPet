@@ -1,45 +1,35 @@
 //
-//  MeuPerfilViewController.swift
+//  GaleriaUsuarioViewController.swift
 //  HosPet
 //
-//  Created by Student on 3/29/17.
+//  Created by Student on 3/30/17.
 //  Copyright © 2017 Veruska. All rights reserved.
 //
 
 import UIKit
 
-class MeuPerfilViewController: UIViewController {
-   
-    @IBAction func selecionarFotoButton(_ sender: UIButton) {
+class GaleriaUsuarioViewController: UIViewController {
+
+    @IBAction func adicionarFotoButton(_ sender: UIButton) {
         getImageFromPictureLibrary()
     }
     
+    @IBOutlet weak var fotoImageView: UIImageView!
     
-    @IBOutlet weak var minhaFotoImageView: UIImageView!
+    let imagePicker = UIImagePickerController()
     
-    @IBOutlet weak var detalhesPerfil: UIView!
-
-    @IBOutlet weak var galeriaPerfil: UIView!
-    
-    @IBAction func opcoesMeuPerfil(_ sender: UISegmentedControl) {
-        switch sender.selectedSegmentIndex {
-        case 0:
-            detalhesPerfil.isHidden = false
-            galeriaPerfil.isHidden = true
-        case 1:
-            detalhesPerfil.isHidden = true
-            galeriaPerfil.isHidden = false
-        default:
-            detalhesPerfil.isHidden = false
-            galeriaPerfil.isHidden = false
+    var imagePickedByUser: UIImage? {
+        get {
+            return fotoImageView.image
+        }
+        
+        set {
+            fotoImageView.image = newValue
         }
     }
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -47,21 +37,21 @@ class MeuPerfilViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    let imagePicker = UIImagePickerController()
-    
-    var imagePickedByUser: UIImage? {
-        get {
-            return minhaFotoImageView.image
-        }
-        
-        set {
-            minhaFotoImageView.image = newValue
-        }
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
     }
+    */
+
 }
 
 
-extension MeuPerfilViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+extension GaleriaUsuarioViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     func getImageFromPictureLibrary() {
         
@@ -82,7 +72,7 @@ extension MeuPerfilViewController: UIImagePickerControllerDelegate, UINavigation
     // Esse método é chamado após o usuário confirmar a imagem escolhida
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         // 4.1 Definimos a forma como a imagem vai renderizar dentro da ImageView
-        minhaFotoImageView.contentMode = .scaleAspectFit
+        fotoImageView.contentMode = .scaleAspectFit
         
         // 4.2 Pegamos a imagem da camera e aplicamos na ImageView
         imagePickedByUser = info[UIImagePickerControllerOriginalImage] as! UIImage?
