@@ -24,12 +24,12 @@ class PerfilAnfitriaoContanierViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        animaisLabel.text = animais
+        animaisLabel.text = "Cachorro Gato"
         ambienteLabel.text = tipoAmbiente
         qntCriancasLabel.text = String(qntCriancas)
         descricaoLabel.text = descricao
         print(qntCriancas)
-        print(ambienteLabel.text)
+       // print(ambienteLabel.text)
     }
 
     override func didReceiveMemoryWarning() {

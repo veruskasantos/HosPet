@@ -122,6 +122,9 @@ class TelaInicialTableViewController: UITableViewController {
                     novaView.distancia = "\(String(anfitriao.distancia)) Km"
                     novaView.classificacao = Double(anfitriao.classificacao)
                     novaView.foto = anfitriao.foto!
+                    novaView.qntCriancas = anfitriao.criancas
+                    novaView.ambiente = anfitriao.ambiente!
+                    novaView.descricao = anfitriao.descricao!
                     
 //                    let test = novaView.containerPerfil as? PerfilAnfitriaoContanierViewController {
 //                        test?.qntCriancas = anfitriao.criancas

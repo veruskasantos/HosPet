@@ -23,6 +23,9 @@ class AdicionarVagaViewController: UIViewController {
     
     @IBOutlet weak var ambienteTextField: UITextField!
     
+    
+    @IBOutlet weak var descricaoTextField: UITextField!
+    
     var anfitriao = Anfitriao()
     
     
@@ -37,6 +40,7 @@ class AdicionarVagaViewController: UIViewController {
         let distancia = Float(5.0)
         let classificacao = Float(0.0)
         let foto = "imagem-perfil-default"
+        let descricao = descricaoTextField.text
         
         anfitriao.nome = nome
         anfitriao.preco = preco!
@@ -47,6 +51,7 @@ class AdicionarVagaViewController: UIViewController {
         //anfitriao.animais
         anfitriao.distancia = distancia
         anfitriao.foto = foto
+        anfitriao.descricao = descricao
         anfitriao.classificacao = classificacao
         AnfitriaoDAO.adicionar(anfitriao)
         navigationController?.popViewController(animated: true)

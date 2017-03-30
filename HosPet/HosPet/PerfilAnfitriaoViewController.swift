@@ -16,6 +16,10 @@ class PerfilAnfitriaoViewController: UIViewController {
     var foto = String()
     var distancia = String()
     var classificacao = 0.0
+    var qntCriancas = Int16()
+    var ambiente = String()
+    var descricao = String()
+    
     
 
     @IBOutlet weak var fotoAnfitriaoImageView: UIImageView!
@@ -27,6 +31,8 @@ class PerfilAnfitriaoViewController: UIViewController {
     @IBOutlet weak var nomeLabel: UILabel!
     
     @IBOutlet weak var classificacaoCosmosView: CosmosView!
+    
+    
     
     @IBOutlet weak var containerPerfil: UIView!
     
@@ -96,14 +102,35 @@ class PerfilAnfitriaoViewController: UIViewController {
     }
     
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        if segue.identifier == "showPerfilAnfitriao" {
+            if let novaView = segue.destination as? PerfilAnfitriaoContanierViewController {
+                
+                novaView.qntCriancas = qntCriancas
+                novaView.tipoAmbiente = ambiente
+                novaView.descricao = descricao
+                    
+                    //                    let test = novaView.containerPerfil as? PerfilAnfitriaoContanierViewController {
+                    //                        test?.qntCriancas = anfitriao.criancas
+                    //
+                    //                    }
+                    //                    let container = PerfilAnfitriaoContanierViewController()
+                    //                    container.qntCriancas = anfitriao.criancas
+                    
+                    
+                    
+            
+            }
+        }
+        
+        
     }
-    */
+    
 
 }
