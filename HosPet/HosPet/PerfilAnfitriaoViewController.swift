@@ -40,6 +40,8 @@ class PerfilAnfitriaoViewController: UIViewController {
     @IBAction func opcoesPerfilBar(_ sender: UISegmentedControl) {
         switch sender.selectedSegmentIndex {
         case 0:
+            
+            
             containerPerfil.isHidden = false
             containerAvaliacao.isHidden = true
             containerGaleria.isHidden = true
