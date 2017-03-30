@@ -29,10 +29,10 @@
 		3F43A59B1E8C278600CE0ABD /* Animal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43A5971E8C278600CE0ABD /* Animal+CoreDataClass.swift */; };
 		3F43A59C1E8C278600CE0ABD /* Animal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43A5981E8C278600CE0ABD /* Animal+CoreDataProperties.swift */; };
 		3F43A59E1E8C284300CE0ABD /* AnfitriaoDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43A59D1E8C284300CE0ABD /* AnfitriaoDAO.swift */; };
-		3FDEC7221E8C32630060309D /* CadastroUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDEC7211E8C32630060309D /* CadastroUsuarioViewController.swift */; };
-		3FDEC7241E8C38B90060309D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDEC7231E8C38B90060309D /* LoginViewController.swift */; };
 		3FBC8EF61E8C341300365B1B /* MeuPerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC8EF51E8C341200365B1B /* MeuPerfilViewController.swift */; };
 		3FBC8EF81E8C3F8000365B1B /* DetalhesMeuPerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC8EF71E8C3F8000365B1B /* DetalhesMeuPerfilViewController.swift */; };
+		3FDEC7221E8C32630060309D /* CadastroUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDEC7211E8C32630060309D /* CadastroUsuarioViewController.swift */; };
+		3FDEC7241E8C38B90060309D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDEC7231E8C38B90060309D /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,10 +60,10 @@
 		3F43A5971E8C278600CE0ABD /* Animal+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Animal+CoreDataClass.swift"; sourceTree = "<group>"; };
 		3F43A5981E8C278600CE0ABD /* Animal+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Animal+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3F43A59D1E8C284300CE0ABD /* AnfitriaoDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnfitriaoDAO.swift; sourceTree = "<group>"; };
-		3FDEC7211E8C32630060309D /* CadastroUsuarioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroUsuarioViewController.swift; sourceTree = "<group>"; };
-		3FDEC7231E8C38B90060309D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3FBC8EF51E8C341200365B1B /* MeuPerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeuPerfilViewController.swift; sourceTree = "<group>"; };
 		3FBC8EF71E8C3F8000365B1B /* DetalhesMeuPerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesMeuPerfilViewController.swift; sourceTree = "<group>"; };
+		3FDEC7211E8C32630060309D /* CadastroUsuarioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroUsuarioViewController.swift; sourceTree = "<group>"; };
+		3FDEC7231E8C38B90060309D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,32 +107,48 @@
 		3F3CF6471E898B0600C3C3DA /* HosPet */ = {
 			isa = PBXGroup;
 			children = (
+				3F86EC881E8D737400C9592A /* CoreDataFiles */,
+				3F1A66451E8AD33D00AEA94F /* SupportingFiles */,
+				3F3CF6521E898B0600C3C3DA /* Assets.xcassets */,
+				3F43A59D1E8C284300CE0ABD /* AnfitriaoDAO.swift */,
+				3F1A66481E8AD5A900AEA94F /* UsuarioDAO.swift */,
+				3F3CF6631E898D5C00C3C3DA /* Main.storyboard */,
+				3F3CF65F1E898CF500C3C3DA /* Usuario.swift */,
+				3F3CF6611E898D0300C3C3DA /* UsuarioTableViewCell.swift */,
+				3F3CF64F1E898B0600C3C3DA /* HosPet.xcdatamodeld */,
+				3F1A664C1E8AFD6A00AEA94F /* CosmosDistrib.swift */,
+			);
+			path = HosPet;
+			sourceTree = "<group>";
+		};
+		3F86EC871E8D735800C9592A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F3CF64A1E898B0600C3C3DA /* ViewController.swift */,
+				3F3CF65D1E898CC200C3C3DA /* TelaInicialTableViewController.swift */,
+				3FDEC7211E8C32630060309D /* CadastroUsuarioViewController.swift */,
+				3FDEC7231E8C38B90060309D /* LoginViewController.swift */,
+				3F3CF6691E899A0B00C3C3DA /* PerfilAnfitriaoViewController.swift */,
+				3FBC8EF51E8C341200365B1B /* MeuPerfilViewController.swift */,
+				3FBC8EF71E8C3F8000365B1B /* DetalhesMeuPerfilViewController.swift */,
+				3F3D7A191E8AE063001E328B /* LocalAnfitriaoViewController.swift */,
+				3F1A664A1E8ADDF200AEA94F /* AdicionarVagaViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3F86EC881E8D737400C9592A /* CoreDataFiles */ = {
+			isa = PBXGroup;
+			children = (
 				3F43A5951E8C278600CE0ABD /* Usuario+CoreDataClass.swift */,
 				3F43A5961E8C278600CE0ABD /* Usuario+CoreDataProperties.swift */,
 				3F43A5971E8C278600CE0ABD /* Animal+CoreDataClass.swift */,
 				3F43A5981E8C278600CE0ABD /* Animal+CoreDataProperties.swift */,
 				3F43A5911E8C24F800CE0ABD /* Anfitriao+CoreDataClass.swift */,
 				3F43A5921E8C24F800CE0ABD /* Anfitriao+CoreDataProperties.swift */,
-				3F1A66451E8AD33D00AEA94F /* SupportingFiles */,
-				3F3CF64A1E898B0600C3C3DA /* ViewController.swift */,
-				3F3CF6521E898B0600C3C3DA /* Assets.xcassets */,
-				3F3CF65D1E898CC200C3C3DA /* TelaInicialTableViewController.swift */,
-				3F43A59D1E8C284300CE0ABD /* AnfitriaoDAO.swift */,
-				3FDEC7211E8C32630060309D /* CadastroUsuarioViewController.swift */,
-				3F1A66481E8AD5A900AEA94F /* UsuarioDAO.swift */,
-				3F3CF6631E898D5C00C3C3DA /* Main.storyboard */,
-				3FDEC7231E8C38B90060309D /* LoginViewController.swift */,
-				3F3CF6691E899A0B00C3C3DA /* PerfilAnfitriaoViewController.swift */,
-				3FBC8EF51E8C341200365B1B /* MeuPerfilViewController.swift */,
-				3FBC8EF71E8C3F8000365B1B /* DetalhesMeuPerfilViewController.swift */,
-				3F3D7A191E8AE063001E328B /* LocalAnfitriaoViewController.swift */,
-				3F3CF65F1E898CF500C3C3DA /* Usuario.swift */,
-				3F3CF6611E898D0300C3C3DA /* UsuarioTableViewCell.swift */,
-				3F3CF64F1E898B0600C3C3DA /* HosPet.xcdatamodeld */,
-				3F1A664A1E8ADDF200AEA94F /* AdicionarVagaViewController.swift */,
-				3F1A664C1E8AFD6A00AEA94F /* CosmosDistrib.swift */,
+				3F86EC871E8D735800C9592A /* Controllers */,
 			);
-			path = HosPet;
+			name = CoreDataFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
