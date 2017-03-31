@@ -14,6 +14,11 @@ class MeuPerfilViewController: UIViewController {
         getImageFromPictureLibrary()
     }
     
+    @IBOutlet weak var nomeUsuarioLabel: UILabel!
+   
+    @IBOutlet weak var qtdVagasLabel: UILabel!
+    
+    @IBOutlet weak var emailUsuarioLabel: UILabel!
     
     @IBOutlet weak var minhaFotoImageView: UIImageView!
     
@@ -40,6 +45,11 @@ class MeuPerfilViewController: UIViewController {
         super.viewDidLoad()
         detalhesPerfil.isHidden = false
         galeriaPerfil.isHidden = true
+        nomeUsuarioLabel.text = "Leonardo Cordeiro"
+        emailUsuarioLabel.text = "leonardo@gmail.com"
+        qtdVagasLabel.text = "0"
+        
+        
         // Do any additional setup after loading the view.
     }
 

@@ -189,7 +189,7 @@
 				TargetAttributes = {
 					3F3CF6441E898B0600C3C3DA = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 836WVM9734;
+						DevelopmentTeam = Q338BF3E56;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -358,10 +358,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 836WVM9734;
+				DEVELOPMENT_TEAM = Q338BF3E56;
 				INFOPLIST_FILE = HosPet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.santos.veruska.HosPet;
+				PRODUCT_BUNDLE_IDENTIFIER = HosPet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -371,10 +371,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 836WVM9734;
+				DEVELOPMENT_TEAM = Q338BF3E56;
 				INFOPLIST_FILE = HosPet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.santos.veruska.HosPet;
+				PRODUCT_BUNDLE_IDENTIFIER = HosPet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
